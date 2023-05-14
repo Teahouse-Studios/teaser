@@ -144,6 +144,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mdi/js@npm:^7.2.96":
+  version: 7.2.96
+  resolution: "@mdi/js@npm:7.2.96"
+  checksum: f8e22da5d994a4b764580d22290c825c1d789a6e015c166e271e2164fb80d33551d6632632897e30ae9033a3fe4aa6a28f2e97c5d3ad56c823f89f859944899e
+  languageName: node
+  linkType: hard
+
+"@mdi/react@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "@mdi/react@npm:1.6.1"
+  dependencies:
+    prop-types: ^15.7.2
+  checksum: d0408c5fcc1cf6e4b1fc7be57a5516453b12c076dc682fe320c2fe7c19a333c265cd16dd2348d5587356f9f9a35cec46fb5f5f530d34c485d23975dcd240f834
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:13.4.2":
   version: 13.4.2
   resolution: "@next/env@npm:13.4.2"
@@ -297,6 +313,58 @@ __metadata:
   dependencies:
     tslib: ^2.4.0
   checksum: 71e0e27234590435e4c62b97ef5e796f88e786841a38c7116a5e27a3eafa7b9ead7cdec5249b32165902076de78446945311c973e59bddf77c1e24f33a8f272a
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/aspect-ratio@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@tailwindcss/aspect-ratio@npm:0.4.2"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: e998fcb0c1a55cae4e83c4510fed0d4d1cba845b7ed79a18451f55377d4a177050c2401af59222662a216aa9c407ef49c475c93db8e13246e0bb3f1ed42f78f8
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/container-queries@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@tailwindcss/container-queries@npm:0.1.1"
+  peerDependencies:
+    tailwindcss: ">=3.2.0"
+  checksum: 2515ae0ce3ca5f3eb2a54116e97cbf4bce45d5fc7ad4b01f3204f51937461ff099c878048afbca22ca422ea3a9c1779df68a7cfe320ca155da47a8dde3257f4b
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/forms@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "@tailwindcss/forms@npm:0.5.3"
+  dependencies:
+    mini-svg-data-uri: ^1.2.3
+  peerDependencies:
+    tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
+  checksum: 9eddb4dbd06d01b1068138ff52a54ed0e35a28e7bfd3c72e226fc28658ecd92a9c078c4abe9c83db090984672040644d7ae2e035933fb619dd703df1d87aa275
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/line-clamp@npm:^0.4.4":
+  version: 0.4.4
+  resolution: "@tailwindcss/line-clamp@npm:0.4.4"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: 3d2ad992aa9263fe9b5cdb23bcfca521a6ab00f65e0f7167be35d2cb46b1635af72889ff9f6d5b2febf5aa5a36e3128eaad8ed43e43af4512c74c74f1058c4c0
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/typography@npm:^0.5.9":
+  version: 0.5.9
+  resolution: "@tailwindcss/typography@npm:0.5.9"
+  dependencies:
+    lodash.castarray: ^4.4.0
+    lodash.isplainobject: ^4.0.6
+    lodash.merge: ^4.6.2
+    postcss-selector-parser: 6.0.10
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: b98e21bdd1798d7e4683499893c5c20ad43fcc8955d5d6eefbe1d30e98e9b6c28949ae8f276d39be9a66fafe843597717196bc5a0a2ac0f87ef86aa051ab9611
   languageName: node
   linkType: hard
 
@@ -2510,6 +2578,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.castarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.castarray@npm:4.4.0"
+  checksum: fca8c7047e0ae2738b0b2503fb00157ae0ff6d8a1b716f87ed715b22560e09de438c75b65e01a7e44ceb41c5b31dce2eb576e46db04beb9c699c498e03cbd00f
+  languageName: node
+  linkType: hard
+
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: 29c6351f281e0d9a1d58f1a4c8f4400924b4c79f18dfc4613624d7d54784df07efaff97c1ff2659f3e085ecf4fff493300adc4837553104cef2634110b0d5337
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
@@ -2603,6 +2685,15 @@ __metadata:
   version: 4.0.0
   resolution: "mimic-fn@npm:4.0.0"
   checksum: 995dcece15ee29aa16e188de6633d43a3db4611bcf93620e7e62109ec41c79c0f34277165b8ce5e361205049766e371851264c21ac64ca35499acb5421c2ba56
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.4
+  resolution: "mini-svg-data-uri@npm:1.4.4"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: 997f1fbd8d59a70f03761e18626d335197a3479cb9d1ff75678e4b64b864d32a0b8fc18115eabde035e5299b8b4a354a78e57dd6ac10f9d604162a6170898d09
   languageName: node
   linkType: hard
 
@@ -3213,6 +3304,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-selector-parser@npm:6.0.10":
+  version: 6.0.10
+  resolution: "postcss-selector-parser@npm:6.0.10"
+  dependencies:
+    cssesc: ^3.0.0
+    util-deprecate: ^1.0.2
+  checksum: 46afaa60e3d1998bd7adf6caa374baf857cc58d3ff944e29459c9a9e4680a7fe41597bd5b755fc81d7c388357e9bf67c0251d047c640a09f148e13606b8a8608
+  languageName: node
+  linkType: hard
+
 "postcss-selector-parser@npm:^6.0.11":
   version: 6.0.12
   resolution: "postcss-selector-parser@npm:6.0.12"
@@ -3259,6 +3360,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^2.8.8":
+  version: 2.8.8
+  resolution: "prettier@npm:2.8.8"
+  bin:
+    prettier: bin-prettier.js
+  checksum: b49e409431bf129dd89238d64299ba80717b57ff5a6d1c1a8b1a28b590d998a34e083fa13573bc732bb8d2305becb4c9a4407f8486c81fa7d55100eb08263cf8
+  languageName: node
+  linkType: hard
+
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
   resolution: "promise-inflight@npm:1.0.1"
@@ -3276,7 +3386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -3872,6 +3982,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "teaser@workspace:."
   dependencies:
+    "@mdi/js": ^7.2.96
+    "@mdi/react": ^1.6.1
+    "@tailwindcss/aspect-ratio": ^0.4.2
+    "@tailwindcss/container-queries": ^0.1.1
+    "@tailwindcss/forms": ^0.5.3
+    "@tailwindcss/line-clamp": ^0.4.4
+    "@tailwindcss/typography": ^0.5.9
     "@types/node": 20.1.4
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
@@ -3880,6 +3997,7 @@ __metadata:
     eslint-config-next: 13.4.2
     next: 13.4.2
     postcss: 8.4.23
+    prettier: ^2.8.8
     react: 18.2.0
     react-dom: 18.2.0
     tailwindcss: 3.3.2
