@@ -6,7 +6,7 @@ import { mdiPlay } from '@mdi/js'
 export default function BilibiliVideo({ id }: { id: string }) {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="aspect-w-16 aspect-h-9  w-full rounded-md bg-black shadow-lg">
+    <div className="w-full h-full aspect-w-16 aspect-h-9 rounded-md bg-black shadow-lg">
       {!isOpen ? (
         <button
           className="w-full h-full transition-all hover:bg-white hover:bg-opacity-10 flex items-center justify-center"

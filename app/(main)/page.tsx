@@ -1,7 +1,8 @@
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import { Intro } from '@/components/home/1.Intro'
+import Footer from '../Footer'
+import Header from '@/app/Header'
+import { Intro } from '@/app/(main)/1.Intro'
 import Image from 'next/image'
+import { Members } from './2.Members'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-col items-center">
         <Intro />
-        <section className="container">sss</section>
+        <Members />
       </main>
       <Footer />
     </>
